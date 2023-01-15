@@ -27,8 +27,8 @@ public class UIBegin : MonoBehaviour
 
 
         buttonLow.clicked += () => speedGame(0.1f);
-        buttonMiddle.clicked += () => speedGame(0.3f);
-        buttonHard.clicked += () => speedGame(0.5f);
+        buttonMiddle.clicked += () => speedGame(0.2f);
+        buttonHard.clicked += () => speedGame(0.3f);
     }
 
     void speedGame(float speed)

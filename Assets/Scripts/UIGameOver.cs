@@ -26,9 +26,9 @@ public class UIGameOver : MonoBehaviour
 
         Button buttonRestart = root.Q<Button>("Restart");
 
-        buttonLow.clicked += () => speedGame(20);
-        buttonMiddle.clicked += () => speedGame(30);
-        buttonHard.clicked += () => speedGame(40);
+        buttonLow.clicked += () => speedGame(0.1f);
+        buttonMiddle.clicked += () => speedGame(0.2f);
+        buttonHard.clicked += () => speedGame(0.3f);
 
         buttonRestart.clicked += () => SceneManager.LoadScene("GameScene");
 
@@ -43,7 +43,7 @@ public class UIGameOver : MonoBehaviour
             TryCount.text = "Всего попыток: 0";
     }
 
-    void speedGame(int speed)
+    void speedGame(float speed)
     {
         File.WriteAllText(fileSpeed, speed.ToString());
         hardLevels.value = false;
