@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/Game.uss?fileID=7433441132597879392&amp;guid=52bd1ca61475a9e449ad2f3c23abb0ff&amp;type=3#Game" />
+    <ui:VisualElement>
+        <ui:Button text="Старт" display-tooltip-when-elided="true" name="buttonStart" class="button" />
+    </ui:VisualElement>
+    <ui:VisualElement name="BeginScreen" style="height: 44px; width: 890px;">
+        <ui:Foldout text="Выбрать сложность" tabindex="0" focusable="false" value="false" usage-hints="None" name="hardLevels" style="height: 45px; font-size: 25px; width: 887px; color: rgb(0, 0, 0); background-color: rgb(229, 215, 154); border-left-color: rgb(95, 134, 164); border-right-color: rgb(95, 134, 164); border-top-color: rgb(95, 134, 164); border-bottom-color: rgb(95, 134, 164); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; margin-left: 3px; margin-right: 3px; -unity-text-align: middle-left; -unity-font-style: bold; justify-content: flex-start; align-items: stretch; padding-top: 0;">
+            <ui:VisualElement>
+                <ui:Button text="Легко" display-tooltip-when-elided="true" name="Low" class="button" style="height: 50px; margin-bottom: -4px;" />
+                <ui:Button text="Средне" display-tooltip-when-elided="true" name="Middle" class="button" style="height: 50px; margin-top: 0; margin-bottom: -4px;" />
+                <ui:Button text="Сложно" display-tooltip-when-elided="true" name="Hard" class="button" style="height: 50px;" />
+            </ui:VisualElement>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>
