@@ -13,3 +13,40 @@
     -unity-font-style: bold;
     height: 50px;
 }
+
+.fout {
+    font-size: 25px;
+    -unity-font-style: bold;
+    height: 48px;
+    background-color: rgb(229, 215, 154);
+    color: rgb(0, 0, 0);
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-color: rgb(95, 134, 164);
+    border-right-color: rgb(95, 134, 164);
+    border-top-color: rgb(95, 134, 164);
+    border-bottom-color: rgb(95, 134, 164);
+    width: 939px;
+    -unity-slice-left: 0;
+    margin-left: 3px;
+    -unity-text-align: middle-left;
+    transition-property: all;
+    transition-duration: 0s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.fout:hover {
+    background-color: rgba(173, 163, 118, 255);
+}
+
+.button:hover {
+    background-color: rgba(173, 165, 127, 255);
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-bounce;
+}

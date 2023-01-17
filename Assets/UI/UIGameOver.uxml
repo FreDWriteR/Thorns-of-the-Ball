@@ -8,10 +8,10 @@
         <ui:Label text="Всего попыток:" display-tooltip-when-elided="true" name="TryCount" style="-unity-text-align: middle-left; margin-left: 250px; font-size: 25px; background-color: rgb(229, 215, 154); color: rgb(0, 0, 0); margin-right: 250px; border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-left-color: rgb(124, 214, 161); border-right-color: rgb(124, 214, 161); border-top-color: rgb(124, 214, 161); border-bottom-color: rgb(124, 214, 161);" />
     </ui:VisualElement>
     <ui:VisualElement>
-        <ui:Button text="НАЧАТЬ ЗАНОВО" display-tooltip-when-elided="true" name="Restart" class="button" style="transition-duration: 1s; transition-timing-function: ease-in-circ;" />
-        <ui:Foldout text="Изменить сложность" value="false" name="hardLevels" style="font-size: 25px; -unity-font-style: bold; height: 48px; background-color: rgb(229, 215, 154); color: rgb(0, 0, 0); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-left-color: rgb(95, 134, 164); border-right-color: rgb(95, 134, 164); border-top-color: rgb(95, 134, 164); border-bottom-color: rgb(95, 134, 164); width: 939px; -unity-slice-left: 0; margin-left: 3px; -unity-text-align: middle-left; transition-property: background-color; transition-duration: 5s; transition-timing-function: ease-in-cubic; transition-delay: 0s;">
-            <ui:Button text="ЛЕГКО" display-tooltip-when-elided="true" name="Low" class="button" style="margin-bottom: -4px;" />
-            <ui:Button text="СРЕДНЕ" display-tooltip-when-elided="true" name="Middle" class="button" style="margin-bottom: -4px;" />
+        <ui:Button text="НАЧАТЬ ЗАНОВО" display-tooltip-when-elided="true" name="Restart" class="button"/>
+        <ui:Foldout text="Изменить сложность" value="false" name="hardLevels" class="fout">
+            <ui:Button text="ЛЕГКО" display-tooltip-when-elided="true" name="Low" class="button"/>
+            <ui:Button text="СРЕДНЕ" display-tooltip-when-elided="true" name="Middle" class="button" />
             <ui:Button text="СЛОЖНО" display-tooltip-when-elided="true" name="Hard" class="button" />
         </ui:Foldout>
     </ui:VisualElement>
